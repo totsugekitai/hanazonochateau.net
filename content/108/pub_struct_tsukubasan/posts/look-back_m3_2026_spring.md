@@ -22,6 +22,8 @@ draft = false
 CD頒布した新譜「non-ISO tri-crab」については、[Discography](/108/pub_struct_tsukubasan/discography)のページでMP3をzipでまとめたものを公開予定です。
 今しばらくお待ちください。
 
+⇒ (2026/7/11) [公開しました！](/108/pub_struct_tsukubasan/discography)
+
 ### 最後に
 
 今後も当サークルは活動を続けていく予定ですので、よろしくお願いします！
