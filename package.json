@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "lint": "oxlint ."
   },
   "engines": {
     "node": ">=26"
@@ -11,21 +12,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
-    "@typescript-eslint/eslint-plugin": "^8.67.0",
-    "@typescript-eslint/parser": "^8.67.0",
     "esbuild": "^0.28.2",
-    "eslint": "^10.9.0",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.11.0",
+    "oxlint": "^1.80.0",
     "prettier": "3.9.6",
-    "typescript": "^7.0.2",
-    "typescript-eslint": "^8.67.0"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }

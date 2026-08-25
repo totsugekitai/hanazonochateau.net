@@ -8,12 +8,12 @@
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+    "source.fixAll.oxc": "explicit",
     "source.addMissingImports": "explicit"
   },
   "markuplint.enable": true,
   "recommendations": [
-    "dbaeumer.vscode-eslint",
+    "oxc.oxc-vscode",
     "esbenp.prettier-vscode",
     "yusukehirao.vscode-markuplint"
   ]
