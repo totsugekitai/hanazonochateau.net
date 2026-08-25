@@ -2,8 +2,9 @@ name = "hanazonochateau-worker"
 pages_build_output_dir = "./public"
 compatibility_date = "2026-08-20"
 
-[build]
-command = "git fetch --unshallow && npm ci && ./gen_575_data.sh && hugo --gc --minify"
+## "[build]" is not supported in pages
+# [build]
+# command = "git fetch --unshallow && npm ci && ./gen_575_data.sh && hugo --gc --minify"
 
 [env.production]
 r2_buckets = [ 
