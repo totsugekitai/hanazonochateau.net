@@ -10,3 +10,8 @@ hanazonochateau.net は静的サイトジェネレータ hugo を用いた個人
 
 - linter: oxlint
 - formatter: prettier
+
+# デプロイ関連の設定
+
+Cloudflare pagesにデプロイしている。
+`wrangler.toml` で設定を管理。
