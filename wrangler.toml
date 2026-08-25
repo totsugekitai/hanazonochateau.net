@@ -1,6 +1,6 @@
 name = "hanazonochateau-worker"
 pages_build_output_dir = "./public"
-compatibility_date = "2025-11-20"
+compatibility_date = "2026-08-20"
 
 [env.production]
 r2_buckets = [ 
