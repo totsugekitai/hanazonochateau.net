@@ -28,7 +28,7 @@ const Button: React.FC<ButtonProps> = ({ open, onClick }): React.ReactNode => {
       onClick={onClick}
       aria-expanded={open}
       aria-controls={ariaControl}
-      aria-hidden="true"
+      aria-label={open ? 'メニューを閉じる' : 'メニューを開く'}
     >
       {open ? '✕' : '≡'}
     </button>
