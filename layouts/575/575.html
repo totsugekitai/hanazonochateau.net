@@ -7,7 +7,7 @@
 <p>{{ plainify . }}</p>
 {{ end }}
 
-{{ $data_sorted := sort .Site.Data ".date" "desc" }}
+{{ $data_sorted := sort hugo.Data ".date" "desc" }}
 
 <ul class="ul-575">
   {{ range $data_sorted }}

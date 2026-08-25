@@ -1,5 +1,5 @@
 baseURL = "https://hanazonochateau.net/"
-languageCode = "ja-jp"
+locale = "ja-jp"
 title = "花園シャトー107号室"
 # theme = "hanazono"
 enableInlineShortcodes = true
