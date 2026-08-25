@@ -6,7 +6,7 @@
     "prettier": "prettier --write ."
   },
   "engines": {
-    "node": "24"
+    "node": ">=26"
   },
   "author": "",
   "license": "MIT",
