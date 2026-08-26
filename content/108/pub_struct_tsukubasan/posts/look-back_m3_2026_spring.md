@@ -14,8 +14,7 @@ draft = false
 
 - https://www.r-srd.net/posts/20260525-m3-2026-spring
 - https://turf.vision/posts/m3-2026-spring
-
-突撃隊の参加報告は後日公開予定です。
+- https://hanazonochateau.net/posts/misc/m3-2026-spring
 
 ### 新譜について
 
