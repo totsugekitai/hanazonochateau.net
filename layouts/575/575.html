@@ -7,7 +7,8 @@
 <p>{{ plainify . }}</p>
 {{ end }}
 
-{{ $data_sorted := sort (index hugo.Data "575") ".date" "desc" }}
+{{ with index hugo.Data "575" }}
+{{ $data_sorted := sort . ".date" "desc" }}
 
 <ul class="ul-575">
   {{ range $data_sorted }}
@@ -23,5 +24,6 @@
   </li>
   {{ end }}
 </ul>
+{{ end }}
 
 {{ end }}
