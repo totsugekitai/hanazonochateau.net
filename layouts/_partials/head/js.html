@@ -1,6 +1,6 @@
 {{- range resources.Match "ts/**.tsx" -}}
   {{- with resources.Get . -}}
-  {{- $opts := dict "minify" true "defines" (dict "process.env.NODE_ENV" "\"development\"") -}}
+  {{- $opts := dict "minify" true "defines" (dict "process.env.NODE_ENV" "\"production\"") -}}
   {{- if eq hugo.Environment "development" -}}
       {{- with . | js.Build -}}
         <script type="text/javascript" src="{{ .RelPermalink }}" defer></script>
