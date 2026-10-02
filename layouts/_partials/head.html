@@ -1,6 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="個人サイト「花園シャトー107号室」のページです。">
+{{- $description := "個人サイト「花園シャトー107号室」のページです。" }}
+{{- if .Description }}
+  {{- $description = .Description }}
+{{- else if .IsPage }}
+  {{- with .Summary | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace }}
+    {{- $description = . }}
+  {{- end }}
+{{- end }}
+<meta name="description" content="{{ $description }}">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ template "_internal/opengraph.html" . }}
