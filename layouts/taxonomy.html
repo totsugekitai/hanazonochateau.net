@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <div class="post-ul">
+    {{ range .Pages }}
+    <div class="post-li">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> ({{ len .Pages }})</h2>
+    </div>
+    {{ end }}
+  </div>
+{{ end }}
